@@ -8,15 +8,15 @@
         Title="jan" Height="300" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="408.126"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0">
+        <StackPanel Grid.Column="0" Margin="0,0,3.126,0.424">
             <Image Source="janipink.jpg" Height="272" Margin="0,0,-0.178,0"/>
 
         </StackPanel>
-        <StackPanel Grid.Column="1">
-
+        <StackPanel Grid.ColumnSpan="2" Margin="385,0,0.079,0.424">
+            <Button Content="back" Margin="19,0,0.073,0" Height="272" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>

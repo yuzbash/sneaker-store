@@ -8,15 +8,15 @@
         Title="moc" Height="300" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="410.136"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0">
+        <StackPanel Grid.Column="0" Margin="0,0,4.136,0.424">
             <Image Source="moc.jpg" Height="272" Margin="0,0,-0.178,0"/>
 
         </StackPanel>
-        <StackPanel Grid.Column="1">
-
+        <StackPanel Grid.ColumnSpan="2" Margin="387,0,0.079,0.424">
+            <Button Content="back" Margin="21,0,0.063,0" Height="273" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>

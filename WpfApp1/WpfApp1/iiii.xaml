@@ -8,14 +8,15 @@
         Title="iiii" Height="300" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="409.131"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0">
-            <Image Source="4jordan.jpg" Height="272" Margin="0,0,-0.178,0"/>
+        <StackPanel Grid.Column="0" Margin="0,0,1.131,0.424">
+            <Image Source="4jordan.jpg" Height="auto" Width="auto" Margin="0,0,-0.178,0"/>
 
         </StackPanel>
-        <StackPanel Grid.Column="1">
+        <StackPanel Grid.ColumnSpan="2" Margin="385,0,0.079,0.424">
+            <Button Content="back" Click="Button_Click" Height="272" Margin="24,0,0.073,0"/>
 
         </StackPanel>
     </Grid>
