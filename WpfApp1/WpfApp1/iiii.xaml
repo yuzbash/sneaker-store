@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.iiii"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="iiii" Height="300" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <Image Source="4jordan.jpg" Height="272" Margin="0,0,-0.178,0"/>
+
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+
+        </StackPanel>
+    </Grid>
+</Window>

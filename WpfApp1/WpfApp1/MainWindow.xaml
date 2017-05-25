@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="490">
+
+    <Grid>
+        <Image Source="\\Mac\Home\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\newbalance.jpg" Height="auto" Width="auto" Margin="0,0,0.026,0.183" Grid.RowSpan="3"/>
+        <Label Content="Добро пожаловать!" HorizontalAlignment="Left" Margin="229,24,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="341,103,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+    </Grid>
+</Window>
